@@ -1,21 +1,33 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export default function AnimatedBackground() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const container = document.getElementById("particles-container");
+    const container = containerRef.current;
     if (!container) return;
-    const particleCount = 30;
+
+    const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReduced) return;
+
+    const particleCount = 15;
+    const particles: HTMLDivElement[] = [];
     for (let i = 0; i < particleCount; i++) {
       const particle = document.createElement("div");
       particle.className = "particle";
       particle.style.left = Math.random() * 100 + "%";
       particle.style.top = Math.random() * 100 + "%";
       particle.style.animationDelay = Math.random() * 5 + "s";
-      particle.style.animationDuration = 3 + Math.random() * 3 + "s";
+      particle.style.animationDuration = 4 + Math.random() * 4 + "s";
       container.appendChild(particle);
+      particles.push(particle);
     }
+
+    return () => {
+      particles.forEach((p) => p.remove());
+    };
   }, []);
 
   return (
@@ -81,7 +93,7 @@ export default function AnimatedBackground() {
           animationDelay: "4s",
         }}
       />
-      <div id="particles-container" />
+      <div ref={containerRef} />
     </div>
   );
 }

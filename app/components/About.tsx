@@ -102,15 +102,15 @@ export default function About() {
                   </div>
 
                   <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border border-cyan-200 rounded-xl sm:rounded-2xl p-4 sm:p-6 transition-all duration-300 hover:bg-cyan-100/50 hover:border-cyan-300 hover:scale-105">
-                    <div className="flex items-center">
-                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-cyan-100 rounded-lg flex items-center justify-center mr-3 sm:mr-4">
+                    <div className="flex items-start gap-3 sm:gap-4 min-w-0">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-cyan-100 rounded-lg flex items-center justify-center shrink-0">
                         <i className="fas fa-envelope text-cyan-600 text-sm sm:text-base" />
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <div className="text-sm text-cyan-600 font-semibold">
                           Email
                         </div>
-                        <div className="text-gray-900 font-medium text-sm sm:text-base">
+                        <div className="text-gray-900 font-medium text-sm sm:text-base break-all">
                           mdhabibbhuiyan7@gmail.com
                         </div>
                       </div>
