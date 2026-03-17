@@ -36,12 +36,14 @@ export default function Footer() {
                   href="https://www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn profile"
                   className="w-8 h-8 sm:w-10 sm:h-10 bg-gray-100 border border-gray-200 rounded-xl flex items-center justify-center text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 hover:border-cyan-300 transition-all duration-300 hover:scale-110"
                 >
                   <i className="fab fa-linkedin text-sm sm:text-base" />
                 </a>
                 <a
                   href="mailto:mdhabibbhuiyan7@gmail.com"
+                  aria-label="Send email"
                   className="w-8 h-8 sm:w-10 sm:h-10 bg-gray-100 border border-gray-200 rounded-xl flex items-center justify-center text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 hover:border-cyan-300 transition-all duration-300 hover:scale-110"
                 >
                   <i className="fas fa-envelope text-sm sm:text-base" />
@@ -50,7 +52,7 @@ export default function Footer() {
             </div>
 
             {/* Quick Links */}
-            <div>
+            <nav aria-label="Footer navigation">
               <h4 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Quick Links
               </h4>
@@ -69,7 +71,7 @@ export default function Footer() {
                   )
                 )}
               </ul>
-            </div>
+            </nav>
 
             {/* Contact Info */}
             <div>

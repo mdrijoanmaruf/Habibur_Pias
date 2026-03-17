@@ -59,12 +59,14 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit LinkedIn profile of Md Habibur Rahaman Bhuiyan"
                 className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 border border-gray-200 rounded-xl flex items-center justify-center text-lg sm:text-xl text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 hover:border-cyan-300 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-1"
               >
                 <i className="fab fa-linkedin" />
               </a>
               <a
                 href="mailto:mdhabibbhuiyan7@gmail.com"
+                aria-label="Send email to Md Habibur Rahaman Bhuiyan"
                 className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 border border-gray-200 rounded-xl flex items-center justify-center text-lg sm:text-xl text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 hover:border-cyan-300 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-1"
               >
                 <i className="fas fa-envelope" />

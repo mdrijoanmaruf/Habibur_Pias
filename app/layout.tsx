@@ -21,28 +21,70 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Md Habibur Rahaman Bhuiyan - Finance Executive | Risk Controller",
+  title: {
+    default: "Md Habibur Rahaman Bhuiyan - Finance Executive | Risk Controller | Dhaka, Bangladesh",
+    template: "%s | Md Habibur Rahaman Bhuiyan",
+  },
   description:
-    "Experienced Risk Controller with a strong background in accounting, credit control, business control, and financial analysis.",
+    "Md Habibur Rahaman Bhuiyan is an experienced Finance Executive and Risk Controller at Global Brand PLC, Dhaka. Skilled in accounting, credit control, financial analysis, and corporate risk management.",
   keywords: [
+    "Md Habibur Rahaman Bhuiyan",
     "Finance Executive",
     "Risk Controller",
     "Credit Control",
     "Financial Analysis",
-    "Accounting",
-    "Md Habibur Rahaman Bhuiyan",
+    "Accounting Management",
+    "Global Brand PLC",
+    "Dhaka Bangladesh",
+    "Corporate Risk Management",
+    "Business Studies",
+    "Financial Risk",
+    "Credit Risk Assessment",
   ],
   authors: [{ name: "Md Habibur Rahaman Bhuiyan" }],
+  creator: "Md Rijoan Maruf",
+  publisher: "Md Habibur Rahaman Bhuiyan",
+  metadataBase: new URL("https://habibur-pias.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Md Habibur Rahaman Bhuiyan - Finance Executive | Risk Controller",
     description:
-      "Experienced Risk Controller with a strong background in accounting, credit control, business control, and financial analysis.",
+      "Experienced Finance Executive and Risk Controller at Global Brand PLC. Skilled in accounting, credit control, financial analysis, and corporate risk management in Dhaka, Bangladesh.",
     type: "website",
     locale: "en_US",
+    url: "/",
+    siteName: "Md Habibur Rahaman Bhuiyan - Portfolio",
+    images: [
+      {
+        url: "/me.png",
+        width: 800,
+        height: 800,
+        alt: "Md Habibur Rahaman Bhuiyan - Finance Executive",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Md Habibur Rahaman Bhuiyan - Finance Executive | Risk Controller",
+    description:
+      "Experienced Finance Executive and Risk Controller at Global Brand PLC, Dhaka, Bangladesh.",
+    images: ["/me.png"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "your-google-verification-code",
   },
 };
 
