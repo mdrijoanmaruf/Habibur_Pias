@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## **Md Habibur Rahaman Bhuiyan**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Finance Executive | Risk Controller**
+Dhaka, Bangladesh
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **📞 Contact Information**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Email:** [mdhabibbhuiyan7@gmail.com](mailto:mdhabibbhuiyan7@gmail.com)
+* **LinkedIn:** [www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207](http://www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## **🧾 Summary**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Experienced Risk Controller with a strong background in the information technology and services industry. Skilled in accounting, credit control, business control, research, and communication in English. A finance professional with a degree from National University, Bangladesh.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## **💼 Work Experience**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Global Brand PLC.**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Total Duration:** 6 years 10 months
+
+#### **Finance Executive**
+
+📍 West Panthapath / Dhaka
+🗓️ January 2026 – Present
+
+* Manage corporate credit exposure by assessing client risk
+* Set credit limits and ensure timely collections
+* Monitor accounts and analyze financial data
+* Implement strategies to reduce bad debt and improve cash flow
+
+---
+
+#### **Officer**
+
+📍 Dhaka, Bangladesh
+🗓️ November 2023 – Present
+
+* Worked in credit control and risk management
+* Handled corporate accounts
+
+---
+
+#### **Credit Control & Risk Management (Corporate Accounts)**
+
+📍 Bangladesh
+🗓️ June 2019 – March 2026
+
+* Managed corporate credit accounts
+* Performed risk assessment and monitoring
+* Ensured proper financial control and reporting
+
+---
+
+## **🎓 Education**
+
+### **National University | Bangladesh**
+
+* **BBS (Bachelor of Business Studies)**
+* **Major:** Accounting
+
+---
+
+## **🛠️ Skills**
+
+* Accounting Management
+* Executive Management
+* Data Analysis
+* Credit Control & Risk Management
+* Financial Analysis
+
