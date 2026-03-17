@@ -1,78 +1,67 @@
+# 💼 Md Habibur Rahaman Bhuiyan - Portfolio
 
+A modern, SEO-optimized portfolio website showcasing professional experience as a Finance Executive and Risk Controller.
 
-## **Md Habibur Rahaman Bhuiyan**
+## 🔗 Links
 
-**Finance Executive | Risk Controller**
-Dhaka, Bangladesh
+- **Live Site:** [https://habibur-pias.vercel.app/](https://habibur-pias.vercel.app/)
+- **Repository:** [https://github.com/mdrijoanmaruf/Habibur_Pias](https://github.com/mdrijoanmaruf/Habibur_Pias)
 
----
+## ✨ Features
 
-## **📞 Contact Information**
+- 📱 **Fully Responsive** - Mobile-first design with Tailwind CSS v4
+- 🎨 **Modern UI** - Smooth animations, gradient effects, and glassmorphism
+- 🔍 **SEO Optimized** - JSON-LD structured data, Open Graph, robots.txt, sitemap
+- ⚡ **High Performance** - Next.js 16 with Turbopack, static generation, optimized fonts
+- ♿ **Accessible** - Semantic HTML, ARIA labels, reduced motion support
+- 🎯 **Sections:**
+  - Hero introduction with profile image
+  - About & professional skills
+  - Work experience timeline
+  - Education credentials
+  - Contact & social links
 
-* **Email:** [mdhabibbhuiyan7@gmail.com](mailto:mdhabibbhuiyan7@gmail.com)
-* **LinkedIn:** [www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207](http://www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207)
+## 🚀 Tech Stack
 
----
+- **Framework:** Next.js 16.1.7
+- **UI Library:** React 19.2.3
+- **Styling:** Tailwind CSS v4
+- **Language:** TypeScript
+- **Fonts:** Sora (primary) + JetBrains Mono (code)
+- **Deployment:** Vercel
 
-## **🧾 Summary**
+## 📋 Quick Start
 
-Experienced Risk Controller with a strong background in the information technology and services industry. Skilled in accounting, credit control, business control, research, and communication in English. A finance professional with a degree from National University, Bangladesh.
+```bash
+# Clone the repository
+git clone https://github.com/mdrijoanmaruf/Habibur_Pias.git
 
----
+# Navigate to project
+cd habibur_pias
 
-## **💼 Work Experience**
+# Install dependencies
+npm install
 
-### **Global Brand PLC.**
+# Run development server
+npm run dev
 
-**Total Duration:** 6 years 10 months
+# Open http://localhost:3000
+```
 
-#### **Finance Executive**
+## 🛠️ Build
 
-📍 West Panthapath / Dhaka
-🗓️ January 2026 – Present
+```bash
+npm run build
+npm start
+```
 
-* Manage corporate credit exposure by assessing client risk
-* Set credit limits and ensure timely collections
-* Monitor accounts and analyze financial data
-* Implement strategies to reduce bad debt and improve cash flow
+## 📧 Contact
 
----
-
-#### **Officer**
-
-📍 Dhaka, Bangladesh
-🗓️ November 2023 – Present
-
-* Worked in credit control and risk management
-* Handled corporate accounts
-
----
-
-#### **Credit Control & Risk Management (Corporate Accounts)**
-
-📍 Bangladesh
-🗓️ June 2019 – March 2026
-
-* Managed corporate credit accounts
-* Performed risk assessment and monitoring
-* Ensured proper financial control and reporting
-
----
-
-## **🎓 Education**
-
-### **National University | Bangladesh**
-
-* **BBS (Bachelor of Business Studies)**
-* **Major:** Accounting
+- **Email:** mdhabibbhuiyan7@gmail.com
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/md-habibur-rahaman-bhuiyan-4728b4207)
+- **Location:** Dhaka, Bangladesh
 
 ---
 
-## **🛠️ Skills**
-
-* Accounting Management
-* Executive Management
-* Data Analysis
-* Credit Control & Risk Management
-* Financial Analysis
-
+**Developer:** [Md Rijoan Maruf](https://rijoan.com)  
+**Last Updated:** March 18, 2026
