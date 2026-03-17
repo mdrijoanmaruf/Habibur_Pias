@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center pt-24 sm:pt-20 relative">
@@ -10,7 +12,7 @@ export default function Hero() {
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                 Hi, I&apos;m{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-700">
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-600 via-blue-600 to-indigo-700">
                   Md Habibur Rahaman Bhuiyan
                 </span>
               </h1>
@@ -32,7 +34,7 @@ export default function Hero() {
                   e.preventDefault();
                   document.querySelector("#experience")?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-base sm:text-lg font-semibold inline-flex items-center justify-center transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-1 hover:scale-105"
+                className="group bg-linear-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-base sm:text-lg font-semibold inline-flex items-center justify-center transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-1 hover:scale-105"
               >
                 <i className="fas fa-briefcase mr-2 sm:mr-3 text-lg sm:text-xl" />
                 <span>View My Experience</span>
@@ -72,8 +74,14 @@ export default function Hero() {
 
           {/* Right Side - Avatar */}
           <div className="flex justify-center order-1 lg:order-2">
-            <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center text-7xl sm:text-8xl lg:text-9xl text-white font-bold shadow-2xl shadow-cyan-500/30">
-              MH
+            <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80">
+              <Image
+                src="/me.png"
+                alt="Md Habibur Rahaman Bhuiyan"
+                fill
+                className="object-cover rounded-3xl shadow-2xl shadow-cyan-500/30"
+                priority
+              />
               <div className="absolute -bottom-2 -right-2 w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full border-4 border-white flex items-center justify-center">
                 <i className="fas fa-check text-white text-sm" />
               </div>

@@ -14,7 +14,7 @@ export default function Footer() {
             {/* Brand Section */}
             <div className="sm:col-span-2 lg:col-span-2">
               <div className="flex items-center mb-4 sm:mb-6">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mr-3 sm:mr-4 shadow-lg shadow-cyan-500/30">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-linear-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mr-3 sm:mr-4 shadow-lg shadow-cyan-500/30">
                   <i className="fas fa-chart-line text-white text-lg sm:text-xl" />
                 </div>
                 <div>

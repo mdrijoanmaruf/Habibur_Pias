@@ -28,7 +28,7 @@ export default function Navbar() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-xl shadow-lg border-b border-gray-200/50 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
           <div className="flex justify-between items-center">
-            <div className="font-bold text-lg sm:text-xl bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
+            <div className="font-bold text-lg sm:text-xl bg-linear-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
               Habibur Rahaman
             </div>
             <div className="hidden md:flex space-x-2">

@@ -53,7 +53,7 @@ export default function Experience() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             Experience
           </h2>
-          <div className="w-24 sm:w-32 h-1 bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-700 mx-auto rounded-full mb-4" />
+          <div className="w-24 sm:w-32 h-1 bg-linear-to-r from-cyan-500 via-blue-600 to-indigo-700 mx-auto rounded-full mb-4" />
           <p className="text-base sm:text-xl text-gray-600 max-w-2xl mx-auto">
             My professional journey and the valuable experiences that have
             shaped my career
@@ -64,7 +64,7 @@ export default function Experience() {
           {/* Timeline Container */}
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-4 sm:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-500 via-blue-600 to-indigo-700 opacity-40" />
+            <div className="absolute left-4 sm:left-8 top-0 bottom-0 w-0.5 bg-linear-to-b from-cyan-500 via-blue-600 to-indigo-700 opacity-40" />
 
             <div className="space-y-8 sm:space-y-12">
               {experiences.map((exp, index) => (
@@ -74,7 +74,7 @@ export default function Experience() {
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   {/* Timeline Dot */}
-                  <div className="absolute left-2 sm:left-6 w-3 h-3 sm:w-4 sm:h-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full border-2 sm:border-4 border-white shadow-md shadow-cyan-500/30 group-hover:scale-125 transition-all duration-500 z-10" />
+                  <div className="absolute left-2 sm:left-6 w-3 h-3 sm:w-4 sm:h-4 bg-linear-to-r from-cyan-500 to-blue-600 rounded-full border-2 sm:border-4 border-white shadow-md shadow-cyan-500/30 group-hover:scale-125 transition-all duration-500 z-10" />
 
                   {/* Experience Card */}
                   <div className="ml-8 sm:ml-16 bg-white/60 backdrop-blur-xl border border-gray-200 rounded-2xl sm:rounded-3xl p-6 sm:p-8 transition-all duration-500 hover:bg-white/80 hover:border-cyan-300 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2">
@@ -82,7 +82,7 @@ export default function Experience() {
                     <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4 sm:mb-6">
                       <div className="flex-1">
                         <div className="flex items-start mb-3">
-                          <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mr-3 sm:mr-4 shadow-lg shadow-cyan-500/20 shrink-0">
+                          <div className="w-10 h-10 sm:w-12 sm:h-12 bg-linear-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mr-3 sm:mr-4 shadow-lg shadow-cyan-500/20 shrink-0">
                             <i className="fas fa-briefcase text-white text-sm sm:text-lg" />
                           </div>
                           <div className="min-w-0 flex-1">
@@ -118,7 +118,7 @@ export default function Experience() {
                         {exp.skills.map((skill) => (
                           <span
                             key={skill}
-                            className="bg-gradient-to-r from-cyan-50 to-blue-50 border border-cyan-300 text-gray-800 px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-medium transition-all duration-300 hover:bg-cyan-100 hover:border-cyan-400 hover:text-gray-900 hover:scale-105 hover:shadow-md hover:shadow-cyan-500/20 whitespace-nowrap"
+                            className="bg-linear-to-r from-cyan-50 to-blue-50 border border-cyan-300 text-gray-800 px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-medium transition-all duration-300 hover:bg-cyan-100 hover:border-cyan-400 hover:text-gray-900 hover:scale-105 hover:shadow-md hover:shadow-cyan-500/20 whitespace-nowrap"
                           >
                             {skill}
                           </span>

@@ -13,7 +13,7 @@ export default function Education() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             Education
           </h2>
-          <div className="w-24 sm:w-32 h-1 bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-700 mx-auto rounded-full mb-4" />
+          <div className="w-24 sm:w-32 h-1 bg-linear-to-r from-cyan-500 via-blue-600 to-indigo-700 mx-auto rounded-full mb-4" />
           <p className="text-base sm:text-xl text-gray-600 max-w-2xl mx-auto">
             My academic background and qualifications
           </p>
@@ -22,7 +22,7 @@ export default function Education() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white/60 backdrop-blur-xl border border-gray-200 rounded-2xl sm:rounded-3xl p-6 sm:p-8 transition-all duration-500 hover:bg-white/80 hover:border-cyan-300 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2">
             <div className="flex items-start">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center mr-4 sm:mr-6 shadow-lg shadow-cyan-500/20 shrink-0">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-linear-to-br from-cyan-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center mr-4 sm:mr-6 shadow-lg shadow-cyan-500/20 shrink-0">
                 <i className="fas fa-graduation-cap text-white text-xl sm:text-2xl" />
               </div>
               <div className="flex-1">
